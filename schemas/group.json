@@ -28,20 +28,24 @@
     "properties": {
         "baseData": {
             "title": "Základné údaje",
+			"transCode":"schemas.group.base.data",
             "type": "object",
             "properties": {
                 "id": {
                     "title": "Identifikátor",
+					"transCode":"schemas.group.base.data.ID",
                     "type": "string",
                     "required": true
                 },
                 "name": {
                     "title": "Nazov skupiny",
+					"transCode":"schemas.group.base.data.name",
                     "type": "string",
                     "required": true
                 },
                 "parent": {
                     "title": "Parent group",
+					"transCode":"schemas.group.base.data.parent.group",
                     "required": false,
                     "$objectLink": {
                         "registry": "groups",
