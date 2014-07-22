@@ -96,10 +96,7 @@
                     "required": true
                 },
                 "nationality": {
-                    "title": "Štatna prislusnosť",
-					"transCode": "schema.people.baseData.nationality",
-                    "type": "string",
-                    "required": true
+					"$ref": "uri://registries/countries#country"
                 }
             }
         },
