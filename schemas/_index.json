@@ -9,5 +9,8 @@
 	"member.json",
 	"organization.json",
 	"countries.json",
-	"userSecurity.json"
+	"userSecurity.json",
+	"events.json",
+	"application.json",
+	"fees.json"
 ]

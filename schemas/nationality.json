@@ -1,10 +1,10 @@
 {
 	"$schema": "http://json-schema.org/schema#",
-	"id": "uri://registries/countries#",
+	"id": "uri://registries/nationality#",
 	"type": "object",
 	"country":{
-		"title": "Štát",
-		"xxtransCode": "schema.people.baseData.nationality",
+		"title": "Štátna prísluštnosť",
+		"transCode": "schema.people.baseData.nationality",
         "type": "string",
 		"enum":[
 			"AFG",

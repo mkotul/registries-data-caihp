@@ -1,0 +1,25 @@
+{
+	"$schema": "http://json-schema.org/schema#",
+	"id": "uri://registries/statistic#",
+	"view": {
+        "title": "statistics",
+		"transCode":"schema.org.view",
+        "_security": {
+			"_read": {
+				"_static":["Registry - read"]
+			}
+		},
+		"properties":{
+			"numberOfMembers":{
+				"title":"",
+				"transCode":"",
+				"type":""
+			},
+			"numberOfMen":{
+				"title":"",
+				"transCode":"",
+				"type":""
+			}
+		}
+	}
+}
